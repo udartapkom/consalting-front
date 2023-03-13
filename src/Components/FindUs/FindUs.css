@@ -1,0 +1,26 @@
+.FindUs{
+    width: 100%;
+    height: 400px;
+}
+@media (max-width: 720px) {
+    .FindUs{
+        height: 350px;
+    }
+}
+@media (max-width: 520px) {
+    .FindUs{
+        height: 300px;
+    }
+}
+@media (max-width: 440px) {
+    .FindUs{
+        height: 280px;
+    }
+}
+@media (max-width: 320px) {
+    .FindUs{
+        height: 200px;
+    }
+}
+
+

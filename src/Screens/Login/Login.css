@@ -1,0 +1,47 @@
+.Login__label{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #8b8b8b;
+    padding-bottom: 5px;
+    margin-top: 24px;
+    margin-right: 5px;
+}
+.Login__label:first-of-type{
+    margin-top: 0;
+}
+.Login__input{
+    width: 440px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.Login__label_type_error{
+    color: #EE3465;
+    margin-top: 5px;
+    padding: 0;
+    display: flex;
+    text-align: left;
+    width: 440px;
+}
+.Login__form{
+    display: flex;
+    flex-direction: column;
+}
+.Login__inputs-container{
+    display: flex;
+    flex-direction: column;
+}
+.Login__input-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 90px;
+}

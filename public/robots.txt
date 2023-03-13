@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: Yandex
+Disallow: /login/
+Disallow: /admin/
+Sitemap: https://ka-tandem.ru/sitemap.xml

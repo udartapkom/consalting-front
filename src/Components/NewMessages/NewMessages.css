@@ -1,0 +1,47 @@
+.NewMessages__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 400px;
+    transition: .5s;
+    background-color: white;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+.NewMessages__list_state_unread{
+    border: 2px solid green;
+}
+.NewMessages__list-item{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.NewMessages__buttons-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.NewMessages__button{
+    margin: 0;
+    padding: 10px;
+    background-color: #004380;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 122%;
+    width: 100px;
+    text-align: center;
+    transition: .3s;
+}
+.NewMessages__button:hover{
+    box-shadow: none;
+    background-color: #4375fc;
+}

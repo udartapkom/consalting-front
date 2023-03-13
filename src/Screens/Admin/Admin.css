@@ -1,0 +1,42 @@
+.Admin{
+    margin-top: 55px;
+    min-height: 60vh;
+    display: flex;
+}
+.Admin__components{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.Admin__title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 122%;
+    color: #004380;
+    margin-top: 0;
+}
+.Admin__menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 25px;
+}
+.Admin__menu-link{
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #004380;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 180px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    transition: .3s;
+}
+.Admin__menu-link:hover{
+    background-color: #4375fc;
+}
+.Admin__menu-link_state_active {
+    background-color: orange;
+    font-weight: 700;
+    box-shadow: none;
+}

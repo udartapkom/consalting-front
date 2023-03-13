@@ -1,0 +1,32 @@
+.FormQuestion__text-input{
+    height: 180px;
+    width: 90%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.FormQuestion__input{
+    width: 90%;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+@media (max-width: 520px) {
+    .FormQuestion__text-input{
+        font-size: 16px;
+    }
+    .FormQuestion__input{
+        font-size: 14px;
+    }
+}
+
+

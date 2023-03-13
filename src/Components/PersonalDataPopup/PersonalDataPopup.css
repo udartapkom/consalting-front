@@ -1,0 +1,34 @@
+.PersonalDataPopup{
+    max-width: 720px;
+}
+.PersonalDataPopup__text{
+    font-size: 16px;
+    line-height: 122%;
+}
+@media (max-width: 940px){
+    .PersonalDataPopup{
+        max-width: 640px;
+    }
+    .PersonalDataPopup__text{
+        font-size: 14px;
+        margin: 0;
+    }
+}
+@media (max-width: 740px){
+    .PersonalDataPopup__text{
+        font-size: 12px;
+    }
+}
+@media (max-width:520px){
+    .PersonalDataPopup__text{
+        font-size: 10px;
+    }
+    .PersonalDataPopup{
+        padding: 18px;
+    }
+}
+@media (max-width:340px){
+    .PersonalDataPopup{
+        padding: 8px;
+    }
+}

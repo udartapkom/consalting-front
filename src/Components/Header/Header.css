@@ -1,0 +1,233 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+}
+.Header__wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Header__title{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 122%;
+    color: #004380;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 30px;
+}
+.Header__container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+}
+.Header__line{
+    border: 6px solid rgba(255, 165, 0, 0.5);
+}
+.Header__line_position_left{
+    max-width: 950px; 
+}
+.Header__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Header__text-wrapper{
+    max-width: 587px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Header__text{
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #004380;
+    line-height: 122%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Header__list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 23px;
+    margin-right: 5px;
+}
+.Header__list-item{
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: #004380;
+    line-height: 122%;
+    display: flex;
+}
+.Header__list-item_position_footer{
+    color: white;
+}
+.Header__done{
+    width: 38px;
+    height: 38px;
+}
+@media (max-width: 1280px) {
+    .Header__list{
+        padding-left: 5px;
+    }
+    .Header__list-item{
+        font-size: 24px;
+    }
+    .Header__title{
+        font-size: 34px;
+    }
+    .Header__text{
+        font-size: 22px;
+    }
+    .Header__done{
+        width: 34px;
+        height: 34px;
+    }
+}
+@media (max-width: 1024px){
+    .Header__list-item{
+        font-size: 22px;
+    }
+    .Header__title{
+        font-size: 28px;
+    }
+    .Header__text{
+        font-size: 20px;
+        line-height: 140%;
+    }
+    .Header__done{
+        width: 32px;
+        height: 32px;
+    }
+    .Header__line{
+        border: 5px solid rgba(255, 165, 0, 0.5);
+    }
+    .Header__line_position_left{
+        max-width: 660px;
+    }
+}
+@media (max-width: 920px){
+    .Header__container{
+        margin-left: 15px;
+    }
+    .Header__list-item{
+        font-size: 18px;
+    }
+    .Header__title{
+        font-size: 24px;
+    }
+    .Header__text{
+        font-size: 18px;
+    }
+    .Header__done{
+        width: 30px;
+        height: 30px;
+    }
+    .Header__line{
+        border: 4px solid rgba(255, 165, 0, 0.5);
+    }
+    .Header__line_position_left{
+        max-width: 600px;
+    }
+}
+@media (max-width: 780px){
+    .Header__text{
+        font-size: 16px;
+        line-height: 110%;
+    }
+    .Header__title{
+        font-size: 20px;
+    }
+    .Header__done{
+        width: 24px;
+        height: 24px;
+    }
+    .Header__list-item{
+        font-size: 16px;
+    }
+    .Header__line_position_left{
+        max-width: 520px;
+    }
+}
+@media (max-width: 620px){
+    .Header__title{
+        font-size: 18px;
+    }
+    .Header__container{ 
+        margin-left: 5px;
+    }
+    .Header__text{
+        font-size: 14px;
+        max-width: 240px;
+    }
+    .Header__list-item{
+        font-size: 14px;
+    }
+    .Header__done{
+        width: 22px;
+        height: 22px;
+    }
+    .Header__line_position_left{
+        max-width: 400px;
+    }
+    .Header__list{
+        display: none;
+    }
+}
+ @media (max-width: 600px){
+    .Header__text{
+        font-size: 14px;
+        max-width: 320px;
+    }
+/*     .Header__text-wrapper{
+       display: none;
+}  */
+}
+@media (max-width: 520px){
+    .Header__title{
+        font-size: 14px;
+    }
+    .Header__text{
+        font-size: 12px;
+    }
+    .Header__done{
+        width: 18px;
+        height: 18px;
+    }
+    .Header__list-item{
+        font-size: 12px;
+    }
+}
+@media (max-width: 440px){
+    .Header__title{
+        margin-top: 5px;
+    }
+    .Header__line{
+        border: 2px solid rgba(255, 165, 0, 0.5);
+    }
+    .Header__line_position_left{
+        max-width: 300px;
+    }
+    .Header__text{
+        font-size: 10px;
+        max-width: 180px;
+    }
+    .Header__done{
+        width: 14px;
+        height: 14px;
+    }
+    .Header__list-item{
+        font-size: 10px;
+    }
+}
+@media (max-width: 370px){
+
+    .Header__line_position_left{
+        max-width: 220px;
+    }
+    .Header__title{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}

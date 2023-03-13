@@ -1,0 +1,43 @@
+.Diploms{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Diploms__image{
+    width: 400px;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #20202073;
+    border-radius: 10px;
+}
+.Diploms__image:hover{
+    scale: 1.1;
+}
+@media screen and (max-width: 840px) {
+    .Diploms{
+        grid-template-columns: repeat(2, 300px);
+        grid-gap: 10px;
+    }
+    .Diploms__image{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .Diploms{
+        grid-template-columns: repeat(1, 400px);
+    }
+    .Diploms__image{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .Diploms{
+        grid-template-columns: repeat(1, 280px);
+    }
+    .Diploms__image{
+        width: 280px;
+    }
+}
