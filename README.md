@@ -2,6 +2,14 @@
 
 https://ka-tandem.ru  
 
+###Технологии и библиотеки:
+- React.JS v18.2
+- React router v6
+- Вёрстка по БЭМ
+- Адаптив для разных устройств
+- REST API
+- Библиотека Telegraf (Telegram - бот)
+
 ## Как запустить проект  
 
 У вас должен быть установлен Node.JS  
@@ -30,27 +38,8 @@ https://nodejs.org/en
 
 Автоматическая сборка и развёртывание на web сервере  
 
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###Дальнейшие планы  
+По желанию заказчика  
+- [ ] SEO оптимизация (в дальнейших версиях React.JS разработчики обещают значительные изменения в SEO)
+- [ ] Добавить внутренний чат на основе WebSocket
+- [X] Оптимизация для мобильных по рекомендациям Яндекс Вэбмастера.  
